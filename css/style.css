@@ -575,6 +575,10 @@ a:hover {
     i.nav__icon{
         display: block;
     }
+          .nav__name{
+        display: none;
+    }
+
     
   }
 
