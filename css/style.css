@@ -213,7 +213,7 @@ a:hover {
     transition: var(--transition);
 }
 .portfolio-grid > div:hover{
-    transform: scale(0.9);
+    transform: scale(1.5);
 }
 #portfolio{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/collab-pic.jpg') center/cover no-repeat fixed;
@@ -238,7 +238,9 @@ a:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),  center/cover no-repeat fixed;
     color: var(--light-color);
 }
-
+.action-grid > div:hover{
+    transform: scale(1.5);
+}
 
 /* collaborations */
 #collaborations .title h2, #work h3{
@@ -248,7 +250,7 @@ a:hover {
     transition: var(--transition);
 }
 .collaborations-grid > div:hover{
-    transform: scale(0.9);
+    transform: scale(1.5);
 }
 #collaborations{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),  center/cover no-repeat fixed;
