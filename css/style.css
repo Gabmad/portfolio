@@ -226,7 +226,7 @@ a:hover {
     overflow: hidden;
 }
 #action{
-    background: linear-gradient(rgba(64, 60, 60, 0.3),rgba(0, 0, 0, 0.5) ),  center/cover no-repeat fixed;
+    background: linear-gradient(rgba(64, 60, 60, 0.3),rgba(0, 0, 0, 0.5) ),  url('../images/action-back.jpeg') center/cover no-repeat fixed;
     color: var(--light-color);
 }
 /* travels */
@@ -235,7 +235,7 @@ a:hover {
     color: var(--light-color);
 }
 #ny{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),  center/cover no-repeat fixed;
+    background: black;
     color: var(--light-color);
 }
 .action-grid > div:hover{
@@ -254,6 +254,18 @@ a:hover {
 }
 #collaborations{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),  center/cover no-repeat fixed;
+    color: var(--light-color);
+}
+#lgtrail{
+    background: black;
+    color: var(--light-color);
+}
+#wam{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),  url('../images/wam-back.jpeg') center/cover no-repeat fixed;
+    color: var(--light-color);
+}
+#ocsport{
+    background: black;
     color: var(--light-color);
 }
 
