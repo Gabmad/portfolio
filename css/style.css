@@ -603,22 +603,45 @@ a:hover {
   }
 /* LIGHTBOX !!!!! */
 
-  .row > .column {
-    padding: 0 8px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
   }
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.column >  div:hover{
+    transform: scale(1.5);
+}
+.column > div{
+    transition: var(--transition);
+}
   
-  /* Create four equal columns that floats next to eachother */
-  .column {
-    float: left;
-    width: 25%;
+  /* Create two equal columns that sits next to each other */
+ #action .column {
+    flex: 50%;
+    padding: 0 4px;
+    
   }
-  
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width:80%
+  }
+  #lgtrail .column {
+    margin-left: 3rem;
+    flex: 30%;
+    padding: 0 4px;
+  }
+  #ocsport .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  #vingtkm .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
   /* The Modal (background) */
   .modal {
     display: none;
