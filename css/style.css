@@ -657,6 +657,10 @@ a:hover {
     flex: 50%;
     padding: 0 4px;
   }
+  #wam .column {
+    flex: 30%;
+    padding: 0 4px;
+  }
   
 
 
