@@ -219,6 +219,9 @@ a:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/collab-pic.jpg') center/cover no-repeat fixed;
     color: var(--light-color);
 }
+#portfolio img {
+    width:80%
+}
 /* action */
 .action-left{
     margin-bottom: 4rem;
