@@ -649,6 +649,15 @@ a:hover {
     flex: 30%;
     padding: 0 4px;
   }
+ #ny .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  #reunion .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
 
 
   /* The Modal (background) */
