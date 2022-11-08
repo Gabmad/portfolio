@@ -85,21 +85,20 @@
     <!-- end of header -->
 
     <!-- main content -->
-    <main>
+       <main>
         <!-- about section -->
         <section id = "about" class = "about py-7">
             <div class = "container">
                 <div class = "about-content grid">
                     <div class = "about-left">
-                        <img src = "images/about-pic.jpeg" alt = "">
+                        <img src = "images/about-pic.jpeg" alt = "" width="100%">
                     </div>
                     <div class = "about-right">
                         <div class = "title">
                             <h2>À propos</h2>
                         </div>
-                        <p class = "lead"> Je combine ma photographie avec ma pratique de sports outdoor et ma relation avec la nature.</p>
-                        <p class = "lead"> Vous pouvez trouver une partie de ma passion dans ce site.</p>
-                        <p class = "lead"> Vos besoins: Reportages photos, Communication, Story telling, Shootings pour promouvoir vos activités, vous même ou une autre personne, vos produits...</p>
+                        <p class = "lead">Le photographe Gabriel Madie combine sa photographie avec sa pratique du sport et sa relation avec la nature.</p>
+                        <p class = "lead">Vous pouvez voir une partie de ma passion et mon travail dans ce site.</p>
                         <a href = "#work" class = "btn-down">
                             <i class = "fas fa-chevron-down"></i>
                         </a>
@@ -109,17 +108,18 @@
         </section>
         <!-- end of about section -->
 
-        <!-- work section --
+        <!-- work section -->
         <section id = "work" class = "vh-100 flex py-7">
             <div class = "container">
                 <div class = "work-content">
                     <div class = "title">
-                        <h2>Qu'est-ce que je fais?</h2>
+                        <h2>Pour quels besoins ?</h2>
                     </div>
                     <ul class = "work-top grid">
-                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Pour vos besoins en photo outdoor nature, evenement...</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Reportages photos outdoor, nature, evenement...</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Promouvoir vos activités, vos produits, vous même...</li>
                         <li class = "lead"><i class = "fas fa-dot-circle"></i> Suivi d'athlète </li>
-                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Projets photos/vidéos court ou longue durée</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Story telling </li>
                     </ul>
 
                     <div class = "work-bottom grid">
@@ -142,10 +142,11 @@
                 </div>
             </div>
         </section>
-        !-- end of work section -->
+        <!-- end of work section -->
 
-   <!-- portfolio section -->
-       <section id = "portfolio" class = "vh-100 py-7">
+
+        <!-- portfolio section -->
+        <section id = "portfolio" class = "vh-100 py-7">
             <div class = "container">
                 <div class = "portfolio-content">
                     <div class = "title">
@@ -155,21 +156,27 @@
                         </a>
                     </div>
                    <!--  -->
-                    <div class = "portfolio-grid grid" >
-                        <div ><img src = "images/port-1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"></div>
-                        <div ><img src = "images/port-2.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow"> </div>
-                        <div ><img src = "images/ny-7.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"></div>
-                        <div ><img src = "images/port-4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"></div>
-                        <div><img src = "images/port-6.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow"></div>
-                        <div><img src = "images/port-5.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow"></div>
-                        <div><img src = "images/port-7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow"></div>
-                        <div><img src = "images/port-8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow"></div>
+                    <div class = "row" >
+                        <div class="column">
+                            <div ><img src = "images/port-1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow"></div>
+                            <div ><img src = "images/port-2.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow"> </div>
+                            <div ><img src = "images/ny-7.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow"></div>
+                        </div>
+                        <div class="column">
+                            <div ><img src = "images/port-4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow"></div>
+                            <div><img src = "images/port-6.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow"></div>
+                            <div><img src = "images/port-5.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow"></div>
+                        </div>
+                        <div class="column">
+                            <div><img src = "images/port-7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow"></div>
+                            <div><img src = "images/port-8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
+<!--  
         <div id="myModal" class="modal">
             <span class="close cursor" onclick="closeModal()">&times;</span>
             <div class="modal-content">
@@ -213,16 +220,16 @@
                 <img src="images/port-8.jpg" style="width:100%">
               </div>
           
-              <!-- Next/previous controls -->
+              <!-- Next/previous controls
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
               <a class="next" onclick="plusSlides(1)">&#10095;</a>
           
-              <!-- Caption text -->
+              <!-- Caption text
               <div class="caption-container">
                 <p id="caption"></p>
               </div>
           
-              <!-- Thumbnail image controls -->
+              <!-- Thumbnail image controls 
               <div class="column">
                 <img class="demo" src="images/port-1.jpg" onclick="currentSlide(1)" alt="Lac Cheserys">
               </div>
@@ -256,6 +263,7 @@
             </div>
           </div>
         <!-- end of portfolio section -->
+
 
  
 
