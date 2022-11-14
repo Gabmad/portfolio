@@ -37,7 +37,7 @@ a{
     color: var(--dark-color);
 }
 img{
-
+/*  width: 80%; */
     display: block;
 }
 .container{
@@ -232,6 +232,24 @@ a:hover {
     background: linear-gradient(rgba(64, 60, 60, 0.3),rgba(0, 0, 0, 0.5) ),  url('../images/action-back.jpeg') center/cover no-repeat fixed;
     color: var(--light-color);
 }
+
+#action .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  #action  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  #action .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
 /* travels */
 #reunion{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/LR-back.jpg') center/cover no-repeat fixed;
@@ -244,6 +262,7 @@ a:hover {
 .action-grid > div:hover{
     transform: scale(1.5);
 }
+
 
 /* collaborations */
 #collaborations .title h2, #work h3{
@@ -271,10 +290,26 @@ a:hover {
     background: black;
     color: var(--light-color);
 }
-
 /* contact */
 #contact{
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(0, 0, 0);
+}
+
+.contact-title h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+.contact-title h2::after{
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background-color: var(--dark-color);
 }
 .contact-content{
     flex-direction: column;
@@ -314,6 +349,14 @@ a:hover {
 .contact-left .btn-submit:hover{
     background-color: #000;
 }
+.lead-contact{
+    color: #fff;
+        opacity: 0.8;
+        padding: 1rem 0;
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 1.8;
+}
 
 #insta{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/insta-pic.jpg') center/cover no-repeat fixed;
@@ -335,7 +378,7 @@ a:hover {
     object-fit: cover;
 }
 .insta-grid > div:hover{
-    transform: scale(0.9);
+    transform: scale(1.5);
 }
 
 /* footer */
@@ -496,6 +539,19 @@ a:hover {
     z-index: 99;
 
 }
+.nav_nav2{
+    height:5rem;
+    width: 100vw; 
+    display: grid;
+    place-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #fefefe;
+
+
+}
 .nav{
     height: 4.5rem;
     display: flex;
@@ -578,8 +634,8 @@ a:hover {
         left: 0;
         background-color: aliceblue;
         width:100%;
-        height:4rem;
-        padding: 0 1rem;
+        height:5rem;
+        padding: 0 2rem;
         display: grid;
         align-content: center;
         border-radius: 1.25rem 1.25rem 0 0;
@@ -587,13 +643,16 @@ a:hover {
 
     }
     .nav__container{
-        height: 3rem;
+        height: 1rem;
     } 
     i.nav__icon{
         display: block;
     }
-          .nav__name{
+    .nav__name{
         display: none;
+    }
+    .header-content_pages h4{
+        font-size:3rem;
     }
 
     
@@ -603,7 +662,12 @@ a:hover {
 .nav_links{
     justify-content: center;
 }
+
   }
+
+
+
+
 /* LIGHTBOX !!!!! */
 
 .row {
@@ -612,7 +676,7 @@ a:hover {
     padding: 0 4px;
     
   }
-  
+
 .column >  div:hover{
     transform: scale(1.1);
 }
@@ -630,7 +694,7 @@ a:hover {
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width:80%
+    width:100%
   }
   #lgtrail .column {
     margin-left: 3rem;
@@ -649,21 +713,23 @@ a:hover {
     flex: 30%;
     padding: 0 4px;
   }
- #ny .column {
-    flex: 50%;
+  #ny .column {
+    flex: 30%;
     padding: 0 4px;
   }
   #reunion .column {
-    flex: 50%;
+    flex: 30%;
     padding: 0 4px;
   }
-  #wam .column {
+  #where .column {
+    flex: 10%;
+    padding: 0 4px;
+  }
+  #portugal .column {
     flex: 30%;
     padding: 0 4px;
   }
   
-
-
   /* The Modal (background) */
   .modal {
     display: none;
@@ -684,7 +750,7 @@ a:hover {
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
   }
   
@@ -775,3 +841,9 @@ a:hover {
   }
 
 
+  #vingtkm .grid {
+    max-width: 100%; 
+    height: auto;
+  }
+
+  
