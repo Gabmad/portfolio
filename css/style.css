@@ -528,7 +528,7 @@ a:hover {
         object-fit: cover;
     }
     .collaborations-grid{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .collaborations-grid > div{
         height: 300px;
@@ -645,9 +645,12 @@ a:hover {
 
 .nav__name{
     font-weight: 500;
+    color:#c2c2c2
+
 }
 .nav__logo{
     width: 7.5rem;
+
 }
 
 .nav_list,
@@ -658,6 +661,7 @@ a:hover {
 
     justify-content: space-around;
     column-gap: 3rem;
+
 }
 .nav_list{
 
@@ -694,7 +698,7 @@ a:hover {
 
 
   .niveau2 {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
   }
   i.nav__icon {
     display: none;
@@ -777,6 +781,11 @@ a:hover {
     width:100%
   }
   #lgtrail .column {
+    margin-left: 3rem;
+    flex: 30%;
+    padding: 0 4px;
+  }
+  #wam .column {
     margin-left: 3rem;
     flex: 30%;
     padding: 0 4px;
